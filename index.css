@@ -1,0 +1,89 @@
+* {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  position: relative;
+  left: 40%;
+  margin-top: 3%;
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 6px 6px;
+}
+.header img {
+  position: absolute;
+  width: 270px;
+  left: 5%;
+  top: 4%;
+  border-radius: 10px;
+}
+.header button {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  padding: 7px 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.section {
+  position: absolute;
+  top: 53%;
+  left: 5%;
+  width: 280px;
+}
+.section span {
+  font-size: 13px;
+}
+.section h1 {
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.section h1:hover {
+  color: hsl(47, 88%, 63%);
+  transition: 0.8s ease-in;
+}
+.section p {
+  color: hsl(0, 0%, 50%);
+  font-size: 14px;
+}
+.footer {
+  position: relative;
+  top: 85%;
+  left: 5%;
+}
+
+.footer img {
+  width: 50px;
+}
+.footer h4 {
+  position: absolute;
+  top: -10%;
+  left: 20%;
+  word-wrap: normal;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 6px 6px;
+  }
+}
